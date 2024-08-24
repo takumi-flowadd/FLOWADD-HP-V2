@@ -8,7 +8,7 @@ export default function Footer () {
             <nav className={styles.nav}>
                 <ul className={styles.items}>
                     <li className={styles.item}>
-                        <a href="/concept">FLOWADDとは</a>
+                        <a href="/ambassador">FLOWADDとは</a>
                     </li>
                     <li className={styles.item}>
                         <a href="/gallery">ギャラリー</a>
