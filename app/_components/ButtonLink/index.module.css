@@ -1,20 +1,15 @@
 .button {
-    display: block;
-    padding: 20px 40px;
-    border-radius: var(--border-radius);
-    width: 300px;
-    background: url('/arrow-right.svg') no-repeat right 20px center,
-      var(--color-button-primary);
-    color: var(--color-text-unpainted);
-  }
-  
-  .button:hover {
-    opacity: 0.9;
-  }
-  
-  @media (max-width: 640px) {
-    .button {
-      padding: 16px 24px;
-      width: 100%;
-    }
-  }
+  color: #ffffff;
+  background-color: #5A6877;
+  border: 2px solid #5A6877;
+  display: inline-block;
+  min-width: 180px;
+  line-height: 48px;
+  border-radius: 24px;
+  font-size: 14px;
+}
+
+.button:hover {
+  color: #5A6877;
+  background-color: #ffffff;
+}

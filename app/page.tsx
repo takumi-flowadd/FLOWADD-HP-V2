@@ -15,10 +15,11 @@ export default async function Home() {
       <section className={styles.top}>
         <div>
           <h1 className={styles.title}>FLOWADDのドライフラワーで特別な思い出をあなたのためだけに</h1>
+          <p className={styles.paragraph}>- オーダーメイドで全てを叶える -</p>
         </div>
       </section>
       <section className={styles.news}>
-          <h2 className={styles.newsTitle}>News</h2>
+          <h2 className={styles.newsTitle}>ニュース</h2>
           <NewsList news={data.contents} />
           <div className={styles.newsLink}>
             <ButtonLink href="/news">もっとみる</ButtonLink>

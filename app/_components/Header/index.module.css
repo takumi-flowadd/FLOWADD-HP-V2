@@ -20,3 +20,23 @@
     width: 250px;
     height: auto;
 }
+
+/* スマホ */
+@media (max-width: 955px) {
+
+.header {
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+
+.logo {
+    margin-left: px;
+    display: block;
+    width: 200px;
+    height: auto;
+}
+
+
+  
+}
