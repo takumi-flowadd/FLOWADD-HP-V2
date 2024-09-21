@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #94ABBF;
+    color: #ffffff;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sub {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.sub::before {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 10px;
+    background-color: var(--color-text-unpainted);
+}
+  
+  .sub::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 10px;
+    background-color: var(--color-text-unpainted);
+}
