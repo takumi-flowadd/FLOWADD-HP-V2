@@ -16,7 +16,7 @@ export default function Menu() {
             <nav className={cx(styles.nav, isOpen && styles.open)}>
                 <ul className={styles.items}>
                     <li className={styles.item}>
-                        <Link href="/ambassador">FLOWADDとは</Link>
+                        <Link href="/consept">FLOWADDとは</Link>
                     </li>
                     <li className={styles.item}>
                         <Link href="/gallery">ギャラリー</Link>
